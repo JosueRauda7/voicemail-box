@@ -1,8 +1,11 @@
-import { configureStore } from '@reduxjs/toolkit';
-import counterReducer from '../features/counter/counterSlice';
+import { createStore } from 'redux';
 
-export default configureStore({
-  reducer: {
-    counter: counterReducer,
-  },
-});
+const initialState = {
+    voicemails: [],
+};
+
+const reducer = (state = initialState, action) => {
+    return state;
+}
+
+export default createStore( reducer );

@@ -1,0 +1,44 @@
+.Navbar
+{
+    background-color: #0C1F26;
+    color: white;
+    min-height: 100vh;
+    box-shadow: 0px 0px 12px  black;
+}
+
+.icon
+{
+    margin-bottom: -5px;
+}
+
+.h1
+{
+    text-align: center;
+    font-family: 'MuseoModerno';
+}
+
+hr
+{
+    width: 80%;
+}
+
+li
+{
+    list-style: none;
+}
+
+.option
+{
+    font-family: 'Raleway';
+    padding: 20px;
+    display: block;
+    color: white;
+    text-decoration: none;
+}
+
+.option:hover
+{
+    color: black;
+    background-color: #70EAFF;
+    transition: linear 0.1s;
+}
